@@ -29,6 +29,11 @@ section#container3{
     background-size: 80%;
     min-height: 846px;
 }
+section#container-rewards{
+    background-color: rgb(53, 4, 73);
+    background-size: 80%;
+    min-height: 846px;
+}
 section#container4{
     background-color:blue;  
     height: 846px;
