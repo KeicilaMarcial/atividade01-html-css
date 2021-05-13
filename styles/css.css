@@ -111,3 +111,22 @@ footer{
     width: auto;
 }
 
+.footer-col h4{
+    margin: 0px 0px 32px;
+    color: rgb(245, 245, 245);
+    font-family: Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-size: 1.125rem;
+    line-height: 1.32;
+}
+
+.footer-col ul li a{
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    color: rgb(245, 245, 245);
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    font-size: 1.125rem;
+    line-height: 1.2
+}
