@@ -13,6 +13,7 @@ li,a,p{
     font-weight: 500;
     color: black;
     text-decoration: none;
+    
 }
 header{
     background-color:rgb(255, 255, 255);
@@ -22,6 +23,7 @@ header{
     padding: 30px;
     position: fixed;
      width: auto; 
+     z-index: 10;
 }
 header#cabecalho{
   
@@ -29,8 +31,8 @@ header#cabecalho{
     width: 100%;
 }
 #logo{
-    height: 60px;
-    width: 60px;
+    height: 35px;
+    width: 45px;
 }
 .nav_links{
     list-style: none;
@@ -49,31 +51,248 @@ p{
     color: #8A05BE;
 }
 /* -- end nav bar ----------------------------------*/
-
+/* ---------- start container1-----------------------------*/
 section#container1{
     background-color:  rgb(138, 5, 190);
     background-size: 160%;
     min-height: 846px;
-    /*background-position: 46% 4%;*/
-   /* -webkit-box-pack: center;*/
-    /*justify-content: center;*/
+  
+  
     
 }
+#c1{
+    padding: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#c1a{
+    position: relative;
+}
+#h1-c1a{
+    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px 0px 16px;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    font-size: 1.75rem;
+    line-height: 1.16;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: bold;
+}
+#a-c1a{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+#c1b{
+    position: relative;
+}
+#img-c1b{
+    height: 400px;
+    width: 400px;
+    
+}
+#input-c1c{
+    color: rgba(17, 17, 17, 0.7);
+    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    color: inherit;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    font-size: 1.125rem;
+    line-height: 1.32;
+    width: 300px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+}
+#bt-c1c{
+    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 30px;
+    color: inherit;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    font-size: 1.125rem;
+    line-height: 1.2;
+    position: relative;
+    left: -40px;
+    z-index: 2;
+    border-radius: 25px;
+    width: 300px;
+    height: 45px;
+    border: hidden;
+    }
+#c1c{
+    position: relative;
+    left: 60px;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background-color: rgb(255, 255, 255);
+    max-width: 20.625rem;
+    margin: auto;
+    height: 250px;
+    width: 800px;
+}
+#h3-c1c{
+font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+margin: 0px 0px 32px;
+color: rgb(17, 17, 17);
+font-weight: 500;
+letter-spacing: -0.03em;
+font-weight: bold;
+}
+
+/*--------------end container1---------------------*/
+/*--------------start container2---------------------*/
 section#container2{
     background-color:#F5F5F5;
     background-size: 160%;
     min-height: 846px;
+    
 }
+#c2{
+    padding: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#c2a{
+    position: relative;
+    right: 50px;
+    height: 500px;
+    padding: 10px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+#a-c02{
+    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    font-size: 1.75rem;
+    line-height: 1.16;
+    color: rgb(138, 5, 190);
+    
+}
+#a-c02-2{
+    line-height: 1.35;
+    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    color: rgb(138, 5, 190);
+    font-weight: 510;
+    letter-spacing: -0.03em;
+    font-size: 1.125rem;
+    position: relative;
+   
+}
+.c2b{
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    position: relative;
+    margin-top: 30px;
+   
+}
+#h1-c02{
+    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    letter-spacing: -0.03em;
+    font-size: 3rem;
+    line-height: 1.16;
+    color:black;
+    font-weight: bold;
+}
+#c2c{
+ margin-top: -80px;  
+}
+#img-c02{
+    height: 580px;
+    width: 650px;
+}
+/*--------------end container2--------------*/
+/*-------------start container3 -------------*/
 section#container3{
     background-color: rgb(255, 255, 255);
     background-size: 80%;
     min-height: 846px;
 }
+/*-----------------end container3------------*/
+/* ----------------start container  rewards----- */
 section#container-rewards{
     background-color: #530082;
-    background-size: 80%;
-    min-height: 846px;
+    background-size: 70%;
+    height: 650px;
 }
+#c-rewards{
+    padding: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#cr2{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#cr2a{
+    position: relative;
+    right: 80px;
+    padding: 10px;
+    justify-content: space-between;
+    margin-top: -60px;
+}
+#a-cr2{
+    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    font-size: 2rem;
+    line-height: 1.16;
+    color: rgb(192, 147, 251);
+}
+#h1-cr2{
+    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px 0px 32px;
+    white-space: pre-line;
+    font-weight: bold;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    font-size: 3.8rem;
+    line-height: 1.16;
+    color: rgb(255, 255, 255);
+}
+#cr2b{
+    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    font-size: 1.125rem;
+}
+#a-cr2-2{
+    line-height: 1.35;
+    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    color:rgb(255, 255, 255);
+    font-weight: 510;
+    letter-spacing: -0.03em;
+    font-size: 1.125rem;
+    position: relative;
+}
+#cr3{
+    position: relative;
+    margin-top: -120px;
+    left: 100px;
+}
+#imgRewards{
+    height: 530px;
+    width: 400px;
+}
+
+/*------------ end container rewards --------------*/
+
 section#container4{
     background-color:blue;  
     height: 846px;
