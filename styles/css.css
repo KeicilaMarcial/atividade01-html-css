@@ -292,28 +292,79 @@ section#container-rewards{
 }
 
 /*------------ end container rewards --------------*/
-
+/*------------------start container4 ---------------*/
 section#container4{
-    background-color:blue;  
-    height: 846px;
+    /*background-color:blue;  */
+    height: 610px;
     width: auto;
    
 }
 
-img#imgContainer4{
-    height: 846px;
+.imgContainer4{
+    height: 610px;
     width: 100%; 
+   
+   
 }
+.c04{
+    position: absolute;
+    margin-top: -450px;
+}
+.h1c04{
+    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px 0px 32px;
+    white-space: pre-line;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+    font-size:3rem;
+    line-height: 1.16;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 100px;
+}
+#ac04{
+    line-height: 1.35;
+    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    color:rgb(255, 255, 255);
+    font-weight: 510;
+    letter-spacing: -0.03em;
+    font-size: 1.125rem;
+    position: relative;
+    left: 100px;
+}
+/*-------------end container4-----------------------------*/
 section#container5{
     background-color: black;  
     height: 600px;
     width: auto;
    
 }
+/*--------------- start container 5 -----------------------*/
 img#imgContainer5{
     height: 600px;
     width: 100%; 
 }
+p span{
+    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px 0px 32px;
+    white-space: pre-line;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+    font-size: 3rem;
+    line-height: 1.16;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 100px;
+    display: block;
+    margin: 0;
+}
+.c05{
+    position: absolute;
+    margin-top: -400px;
+}
+/*--------------end container5---------------------------*/
+/*---------------start container 6 -----------------------*/
 section#container6{
     background-color: black;  
     height: 600px;
@@ -324,12 +375,202 @@ img#imgContainer6{
     height: 600px;
     width: 100%; 
 }
+/*---------end container 6-----------------------------*/
+/*---------start footer--------------------------------*/
 footer{
     background-color: black;   
     height: 846px;
     width: auto;
+    margin-top: 0px;
 }
-
+.container7{
+    background-color: black;   
+    height: 846px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 5fr 5fr 5fr 5fr;
+    grid-template-columns: 5fr 5fr 5fr 5fr ;
+    grid-gap:20px;
+    position: relative;
+    left: 20px;
+    padding-top: 100px;
+    
+}
+footer .container7 .sectionNubank h4{
+    margin: 0px 0px 32px;
+    color: rgb(245, 245, 245);
+    font-family: "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-size: 1.125rem;
+    line-height: 1.32;
+}
+footer .container7 .sectionNubank a{
+    margin-bottom: 0.5rem;
+    color: rgb(255, 255, 255);
+    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+    font-size: 1.125rem;
+    line-height: 1.2;
+}
+footer .container7 .sectionProdutos h4{
+    margin: 0px 0px 32px;
+    color: rgb(245, 245, 245);
+    font-family: "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-size: 1.125rem;
+    line-height: 1.32;
+}
+footer .container7 .sectionProdutos a{
+    margin-bottom: 0.5rem;
+    color: rgb(255, 255, 255);
+    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+    font-size: 1.125rem;
+    line-height: 1.2;
+}
+footer .container7 .sectionExplore h4{
+    margin: 0px 0px 32px;
+    color: rgb(245, 245, 245);
+    font-family: "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-size: 1.125rem;
+    line-height: 1.32;
+}
+footer .container7 .sectionExplore a{
+    margin-bottom: 0.5rem;
+    color: rgb(255, 255, 255);
+    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+    font-size: 1.125rem;
+    line-height: 1.2;
+}
+footer .container7 .sectionVejaTambem h4{
+    margin: 0px 0px 32px;
+    color: rgb(245, 245, 245);
+    font-family: "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-size: 1.125rem;
+    line-height: 1.32;
+}
+footer .container7 .sectionVejaTambem a{
+    margin-bottom: 0.5rem;
+    color: rgb(255, 255, 255);
+    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+    font-size: 1.125rem;
+    line-height: 1.2;
+}
+footer .container7 .sectionTransparencia h4{
+    margin: 0px 0px 32px;
+    color: rgb(245, 245, 245);
+    font-family: "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-size: 1.125rem;
+    line-height: 1.32;
+}
+footer .container7 .sectionTransparencia a{
+    margin-bottom: 0.5rem;
+    color: rgb(255, 255, 255);
+    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+    font-size: 1.125rem;
+    line-height: 1.2;
+}
+footer .container7 .sectionOuvidoria h4{
+    margin: 0px 0px 32px;
+    color: rgb(245, 245, 245);
+    font-family: "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-size: 1.125rem;
+    line-height: 1.32;
+}
+footer .container7 .sectionOuvidoria a{
+    margin-bottom: 0.5rem;
+    color: rgb(255, 255, 255);
+    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+    font-size: 1.125rem;
+    line-height: 1.2;
+}
+footer .container7 .sectionFale h4{
+    margin: 0px 0px 32px;
+    color: rgb(245, 245, 245);
+    font-family: "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-size: 1.125rem;
+    line-height: 1.32;
+}
+footer .container7 .sectionFale a{
+    margin-bottom: 0.5rem;
+    color: rgb(255, 255, 255);
+    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+    font-size: 1.125rem;
+    line-height: 1.2;
+}
+footer .container7 .sectionBaixe h4{
+    margin: 0px 0px 32px;
+    color: rgb(245, 245, 245);
+    font-family: "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-size: 1.125rem;
+    line-height: 1.32;
+}
+footer .container7 .sectionBaixe a{
+    margin-bottom: 0.5rem;
+    color: rgb(255, 255, 255);
+    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+    font-size: 1.125rem;
+    line-height: 1.2;
+}
+/*
+.container7{
+    border-bottom: 1px solid rgb(25, 25, 25);
+    row-gap: 80px;
+}
+.row1{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: -80px;
+    
+    
+}
+.row2{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: -80px;
+}
 .footer-col h4{
     margin: 0px 0px 32px;
     color: rgb(245, 245, 245);
@@ -349,3 +590,4 @@ footer{
     font-size: 1.125rem;
     line-height: 1.2
 }
+*/
