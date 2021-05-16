@@ -33,19 +33,20 @@ header#cabecalho{
 #logo{
     height: 35px;
     width: 45px;
+    margin-right: 50px;
 }
 .nav_links{
     list-style: none;
     position: relative;
     left: -290px;
-   
 }
 .nav_links li{
     display: inline-block;
-    padding: 0px 20px;  
+    padding: 0px 20px; 
 }
 .nav_links li a {
     transition: all 0.3s ease 0s;
+    font-weight: bold; 
 }
 p{
     color: #8A05BE;
@@ -215,7 +216,27 @@ section#container2{
 section#container3{
     background-color: rgb(255, 255, 255);
     background-size: 80%;
-    min-height: 846px;
+    height: 675px;
+    /* min-height: 846px; */
+    
+}
+
+#c3{
+    padding: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#h1-c03{
+    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    margin-right: 300px;
+    letter-spacing: -0.03em;
+    font-size: 3rem;
+    line-height: 1.16;
+    color:black;
+    font-weight: bold;
 }
 /*-----------------end container3------------*/
 /* ----------------start container  rewards----- */
@@ -342,7 +363,7 @@ section#container5{
 }
 /*--------------- start container 5 -----------------------*/
 img#imgContainer5{
-    height: 600px;
+    height: 700px;
     width: 100%; 
 }
 p span{
@@ -361,7 +382,7 @@ p span{
 }
 .c05{
     position: absolute;
-    margin-top: -400px;
+    margin-top: -450px;
 }
 /*--------------end container5---------------------------*/
 /*---------------start container 6 -----------------------*/
@@ -372,8 +393,13 @@ section#container6{
    
 }
 img#imgContainer6{
-    height: 600px;
+    height: 700px;
     width: 100%; 
+}
+
+.c06{
+    position: absolute;
+    margin-top: -500px;
 }
 /*---------end container 6-----------------------------*/
 /*---------start footer--------------------------------*/
