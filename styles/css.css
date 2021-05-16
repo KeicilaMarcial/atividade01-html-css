@@ -406,7 +406,7 @@ img#imgContainer6{
 footer{
     background-color: black;   
     height: 800px;
-    width: auto;
+    width: 100%;
     margin-top: 0px;
 }
 .container7{
@@ -576,15 +576,15 @@ footer .container7 .sectionBaixe a{
     line-height: 1.2;
 }
 .container8{
-    background-color:black;
+    background-color:green;
+    width: 300%;
+    height: 100px;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-bottom: 1px solid  red;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
-    padding-left: 15px;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid  rgb(25, 25, 25);
+    justify-content: center;
+    
 
 }
 #f1{
@@ -611,6 +611,7 @@ footer .container7 .sectionBaixe a{
     line-height: 1.5;
 }
 #f3{
+    
     position: relative;
     display: grid;
     grid-template-rows: 5fr 5fr 5fr 5fr;
