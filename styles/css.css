@@ -388,7 +388,7 @@ p span{
 /*---------------start container 6 -----------------------*/
 section#container6{
     background-color: black;  
-    height: 600px;
+    height: 700px;
     width: auto;
    
 }
@@ -420,7 +420,13 @@ footer{
     position: relative;
     left: 20px;
     padding-top: 100px;
-    
+    border-bottom: 1px solid rgb(25, 25, 25);
+}
+.container8{
+    background-color: white;
+    position: relative;
+    width:100%;
+
 }
 footer .container7 .sectionNubank h4{
     margin: 0px 0px 32px;
@@ -574,46 +580,9 @@ footer .container7 .sectionBaixe a{
     font-size: 1.125rem;
     line-height: 1.2;
 }
-/*
-.container7{
-    border-bottom: 1px solid rgb(25, 25, 25);
-    row-gap: 80px;
-}
-.row1{
-    padding: 50px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.container8{
+    background-color: white;
     position: relative;
-    left: -80px;
-    
+    width: auto;
     
 }
-.row2{
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
-    left: -80px;
-}
-.footer-col h4{
-    margin: 0px 0px 32px;
-    color: rgb(245, 245, 245);
-    font-family: Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    letter-spacing: -0.01em;
-    font-size: 1.125rem;
-    line-height: 1.32;
-}
-
-.footer-col ul li a{
-    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 0px;
-    color: rgb(245, 245, 245);
-    font-weight: 500;
-    letter-spacing: -0.03em;
-    font-size: 1.125rem;
-    line-height: 1.2
-}
-*/
