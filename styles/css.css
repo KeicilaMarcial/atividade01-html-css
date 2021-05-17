@@ -13,6 +13,7 @@ li,a,p{
     font-weight: 500;
     color: black;
     text-decoration: none;
+   
     
 }
 header{
@@ -47,8 +48,14 @@ header#cabecalho{
 .nav_links li a {
     transition: all 0.3s ease 0s;
     font-weight: bold; 
+    
 }
 p{
+    color: #8A05BE;
+    font-weight: bold;
+}
+#hoverLongin:hover{
+    text-decoration: underline;
     color: #8A05BE;
 }
 /* -- end nav bar ----------------------------------*/
@@ -56,10 +63,7 @@ p{
 section#container1{
     background-color:  rgb(138, 5, 190);
     background-size: 160%;
-    min-height: 846px;
-  
-  
-    
+    min-height: 846px;  
 }
 #c1{
     padding: 120px;
@@ -84,6 +88,10 @@ section#container1{
 #a-c1a{
     color: rgb(255, 255, 255);
     font-weight: bold;
+}
+#a-c1a:hover{
+    text-decoration: underline;
+    color: white;
 }
 #c1b{
     position: relative;
@@ -186,6 +194,10 @@ section#container2{
     position: relative;
    
 }
+#a-c02-2:hover{
+    text-decoration: underline;
+    color: rgb(138, 5, 190);
+}
 .c2b{
     padding: 0px;
     display: flex;
@@ -194,6 +206,10 @@ section#container2{
     position: relative;
     margin-top: 30px;
    
+}
+.c2b:hover{
+    text-decoration: underline;
+    color: white;
 }
 #h1-c02{
     font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -262,7 +278,7 @@ section#container-rewards{
     right: 80px;
     padding: 10px;
     justify-content: space-between;
-    margin-top: -60px;
+    margin-top: -150px;
 }
 #a-cr2{
     font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -273,17 +289,17 @@ section#container-rewards{
     line-height: 1.16;
     color: rgb(192, 147, 251);
 }
-#h1-cr2{
+/*#h1-cr2{
     font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px 0px 32px;
     white-space: pre-line;
     font-weight: bold;
     font-weight: 500;
     letter-spacing: -0.03em;
-    font-size: 3.8rem;
+    font-size: 3rem;
     line-height: 1.16;
     color: rgb(255, 255, 255);
-}
+}*/
 #cr2b{
     font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px;
@@ -311,7 +327,20 @@ section#container-rewards{
     height: 530px;
     width: 400px;
 }
-
+h1 span{
+    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px 0px 32px;
+    white-space: pre-line;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+    font-size: 3rem;
+    line-height: 1.16;
+    color: rgb(255, 255, 255);
+    position: relative;
+    padding-left: 0px;
+    display: block;
+    margin: 0;
+}
 /*------------ end container rewards --------------*/
 /*------------------start container4 ---------------*/
 section#container4{
@@ -383,6 +412,10 @@ p span{
 .c05{
     position: absolute;
     margin-top: -450px;
+}
+.imgIcon{
+    padding-left: 110px;
+    height: 17px;
 }
 /*--------------end container5---------------------------*/
 /*---------------start container 6 -----------------------*/
