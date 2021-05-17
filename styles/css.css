@@ -83,6 +83,10 @@ p{
     text-decoration: underline;
     color: #8A05BE;
 }
+
+/*------------drop down menu-----------------------*/
+
+      
 /* -- end nav bar ----------------------------------*/
 /* ---------- start container1-----------------------------*/
 section#container1{
@@ -448,7 +452,7 @@ img#imgContainer6{
 /*---------start footer--------------------------------*/
 footer{
     background-color: black;   
-    height: 900px;
+    height: 800px;
     width: 100%;
     margin-top: 0px;
 }
@@ -456,11 +460,12 @@ footer{
     background-color: black;   
     display: grid;
     grid-template-rows: 2fr 2fr 2fr 2fr;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
     grid-gap:20px;
     position: relative;
-    height: 1100px;
+    height: 650px;
     /*left: 20px;*/
+
     padding-left: 50px;
     padding-top: 100px;
     border-bottom: 1px solid rgb(25, 25, 25);
