@@ -85,7 +85,16 @@ p{
 }
 
 /*------------drop down menu-----------------------*/
-
+nav .wrapper{
+    position :absolute;
+    top:5px;
+    display:grid;
+    grid-template-rows: 5fr 5fr 5fr;
+    grid-template-columns: 5fr 5fr 5fr;
+    grid-gap:20px;
+     justify-content: space-between;
+    align-items: center;
+}
       
 /* -- end nav bar ----------------------------------*/
 /* ---------- start container1-----------------------------*/
