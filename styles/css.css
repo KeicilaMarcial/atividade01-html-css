@@ -47,14 +47,7 @@ li,a,p{
     display:block;
     width:150px;
 }
-.gridM01{
-    background-color: rgb(255, 255, 255);
-    display: grid;
-    width: 100%;
-   
-    left: 0px;
-  
-}
+
 header{
     background-color:rgb(255, 255, 255);
     display: flex;
@@ -86,14 +79,18 @@ p{
 
 /*------------drop down menu-----------------------*/
 nav .wrapper{
-    position :absolute;
+    position :relative;
     top:5px;
     display:grid;
     grid-template-rows: 5fr 5fr 5fr;
     grid-template-columns: 5fr 5fr 5fr;
-    grid-gap:20px;
-     justify-content: space-between;
+    grid-gap:10px;
+    justify-content: space-between;
     align-items: center;
+    height: 50px;
+    width: 200%;
+   margin-top: 80px;
+    background-color: aquamarine;
 }
       
 /* -- end nav bar ----------------------------------*/
