@@ -15,41 +15,76 @@
            <nav>
               <ul class="menu">
                <li><a href="#">Página Inicial</a></li>
-                  <li><a href="#" >Para Você</a>
-                     <div class="wrapper">
-                           <div>
-                              
-                                 <p>Cartão de Crédito</p>
-                                 <a href="#">Cartão de Crédito</a>
-                                 <a href="#">Programa de Pontos</a>
-                              
-                           </div>  
-                           <div>                           
-                                 <p>Cartão de Crédito</p>
-                                 <a href="#">Cartão de Crédito</a>
-                                 <a href="#">Programa de Pontos</a>
-                           </div>
-                           <div>
-                                 <p>Outros Produtos</p>
-                                 <a href="#">Emprestimo Pessoal</a>
-                                 <a href="#">Seguro de Vida</a>
-                           </div>
-                     </div>
-                      
-                </li>
-               
+                  <li> <a href="#" onmouseover="document.getElementById('wrapper').style.display = 'block'"
+                  onmouseout="document.getElementById('wrapper').style.display = 'none'">Para Você</a> </li>
                   <li><a href="#">Conta PJ</a></li>
-                  <li><a href="#">O Nubank</a>
-                   <!-- <ul>
-                        <li><a href="#">O Nu</a></li>
-                        <li><a href="#">Sala de Imprensa</a></li>
-                        <li><a href="#">Carreiras</a></li>
-                        <li><a href="#">Impacto Social</a></li>
-                        
-                   </ul>-->
-                  </li>
-                  <li><a href="#">Perguntas</a></li>
+                  <li><a href="#" onmouseover="document.getElementById('wrapper2').style.display = 'block';"
+                     onmouseout="document.getElementById('wrapper2').style.display = 'none'" >O Nubank</a></li>
+                  <li><a href="#" >Perguntas</a></li>
                </ul>
+              <div class="wrapper" id="wrapper">       
+                   <div class="dropdown">
+                        <div class="dp">
+                              <p class="pdp">Conta Digital</p>
+                              <ul>
+                                 <li><a href="#">Conta digital</a></li><br>
+                                 <li> <a href="#">Tudo sobre  Pix</a> 
+                                    <button class="bt-dp" type="submit" disabled="">novo</button>
+                                 </li>
+                              </ul>
+                        </div>  
+                        <div class="dp">                           
+                              <p  class="pdp">Cartão de Crédito</p>
+                              <ul>
+                                 <li><a href="#">Cartão de crédito</a></li><br>
+                                 <li> <a href="#">Programa de pontos</a></li>
+                              </ul>                            
+                        </div>
+                        <div class="dp">
+                           <p  class="pdp">Outros Produtos</p>
+                           <ul>
+                              <li><a href="#">Emprestimo Pessoal</a></li><br>
+                              <li> <a href="#">Seguro de Vida</a> 
+                                 <button class="bt-dp" type="submit" disabled="">novo</button>
+                              </li>
+                           </ul>    
+                        </div>
+                  </div>
+               </div>
+            
+               <div class="wrapper" id="wrapper2">       
+                  <div class="dropdown">
+                       <div class="dp">
+                             <p class="pdp">Sobre nós</p>
+                             <ul>
+                                <li><a href="#">O Nu</a></li><br>
+                                <li><a href="#">Sala de imprensa</a></li><br>
+                                <li><a href="#">Carreiras</a></li><br>
+                                <li> <a href="#">Impacto Social</a></li>
+                               
+                             </ul>
+                           
+                            
+                       </div>  
+                       <div class="dp">                           
+                             <p  class="pdp">Outros canais</p>
+                             <ul>
+                                <li><a href="#">Blog</a></li><br>
+                                <li><a href="#">Newsletter</a></li><br>
+                                <li> <a href="#">Comunidade</a></li>
+                             </ul>                            
+                       </div>
+                       <div class="dp">
+                          <p  class="pdp">Nubank pelo mundo</p>
+                          <ul>
+                             <li><a href="#">México</a></li><br>
+                             <li><a href="#">Colombia</a></li><br>
+                             <li> <a href="#">Argentina</a></li>
+                          </ul>    
+                       </div>
+                 </div>
+              </div>
+            
            </nav>
             <a id="hoverLongin" href="#"><p>Login</p></a>
         </header>

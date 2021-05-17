@@ -18,7 +18,7 @@ li,a,p{
 }
 .menu{
     list-style:none;
-    float:left;
+   float:left;
     position: relative;
     left: -360px;
 }
@@ -79,20 +79,67 @@ p{
 
 /*------------drop down menu-----------------------*/
 nav .wrapper{
+    position:absolute;
+    display: none;
+}
+
+nav .dropdown{
     position :relative;
-    top:5px;
+    height: 350px;
+    width: 1349px;
+    left: -467px;
     display:grid;
     grid-template-rows: 5fr 5fr 5fr;
     grid-template-columns: 5fr 5fr 5fr;
-    grid-gap:10px;
-    justify-content: space-between;
-    align-items: center;
-    height: 50px;
-    width: 200%;
-   margin-top: 80px;
-    background-color: aquamarine;
+    margin-top: 30px;
+    background-color: white;
+}   
+.dp{
+    position: relative;
+    left:50px;
+    height: 100px;
+    padding-top: 10px;
+    margin-top: 40px;
 }
-      
+.pdp{
+    margin: 0px 0px 20px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-size:1.125rem ;
+    line-height: 1.32;
+    color: rgb(17, 17, 17);
+}
+.wrapper u li{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:#fff;
+    display:none;
+    list-style:none;
+}
+.wrapper a{
+    font-weight: bold;
+    letter-spacing: -0.03em;
+    font-size: 1.5rem;
+}
+.wrapper a:hover{
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%;
+    color: rgb(130, 10, 209);
+}
+.bt-dp{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin: 5px;
+    color: rgb(25, 25, 25);
+    font-weight: bold;
+    letter-spacing: -0.02em;
+    border-radius: 25px;
+    width: 60px;
+    height: 30px;
+    border: hidden;
+    
+    }
 /* -- end nav bar ----------------------------------*/
 /* ---------- start container1-----------------------------*/
 section#container1{
