@@ -7,7 +7,8 @@
     <link rel="shortcut icon" type="image/x-icon" href="nu.ico"/>
     <link rel="shortcut icon" type="image/x-icon" href="nu.ico"/> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  </head>
+  
+   </head>
   <body>
         <header id="cabecalho">
             
@@ -15,11 +16,15 @@
            <nav>
               <ul class="menu">
                <li><a href="#">Página Inicial</a></li>
-                  <li> <a href="#" onmouseover="document.getElementById('wrapper').style.display = 'block'"
-                  onmouseout="document.getElementById('wrapper').style.display = 'none'">Para Você</a> </li>
+               <li>
+                   <a href="#" class="bounce-arrow" onmouseover="document.getElementById('wrapper').style.display = 'block'"onmouseout="document.getElementById('wrapper').style.display = 'none'">
+                     Para Você<i id="arrowDown"></i>
+                       <i  id="arrowDown" class="fa fa-angle-down"></i>
+                  </a>
+               </li>
                   <li><a href="#">Conta PJ</a></li>
                   <li><a href="#" onmouseover="document.getElementById('wrapper2').style.display = 'block';"
-                     onmouseout="document.getElementById('wrapper2').style.display = 'none'" >O Nubank</a></li>
+                     onmouseout="document.getElementById('wrapper2').style.display = 'none'" >O Nubank  <i  id="arrowDown" class="fa fa-angle-down"></i></a></li>
                   <li><a href="#" >Perguntas</a></li>
                </ul>
               <div class="wrapper" id="wrapper">       

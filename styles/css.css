@@ -80,7 +80,9 @@ nav .wrapper{
     position:absolute;
     display: none;
 }
-
+.arrow{
+    height: 15px;
+}
 nav .dropdown{
     position :relative;
     height: 350px;
