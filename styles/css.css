@@ -86,7 +86,7 @@ nav .wrapper{
 nav .dropdown{
     position :relative;
     height: 350px;
-    width: 1349px;
+    width: 1400px;
     left: -467px;
     display:grid;
     grid-template-rows: 5fr 5fr 5fr;
