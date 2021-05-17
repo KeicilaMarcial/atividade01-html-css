@@ -1,6 +1,6 @@
 body{
-    /*background-color: black; */
-    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*  font-family: spotify-circular, Helvetica, Arial, sans-serif;*/
 }
 *{
     box-sizing: border-box;
@@ -9,12 +9,51 @@ body{
 }
 /* ----------------- nav bar ----------------------------*/
 li,a,p{
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
     color: black;
     text-decoration: none;
    
     
+}
+.menu{
+    list-style:none;
+    float:left;
+    position: relative;
+    left: -360px;
+}
+
+.menu li{
+    position:relative;
+    float:left;
+    display: inline-block;
+    padding: 0px 10px; 
+}
+.menu li a{
+    transition: all 0.3s ease 0s;
+    font-weight: bold; 
+}
+
+.menu li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:#fff;
+    display:none;
+}
+.menu li:hover ul, .menu li.over ul{display:block;}
+.menu li ul li{
+    border:1px solid #c0c0c0;
+    display:block;
+    width:150px;
+}
+.gridM01{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    width: 100%;
+   
+    left: 0px;
+  
 }
 header{
     background-color:rgb(255, 255, 255);
@@ -34,21 +73,7 @@ header#cabecalho{
 #logo{
     height: 35px;
     width: 45px;
-    margin-right: 50px;
-}
-.nav_links{
-    list-style: none;
-    position: relative;
-    left: -290px;
-}
-.nav_links li{
-    display: inline-block;
-    padding: 0px 20px; 
-}
-.nav_links li a {
-    transition: all 0.3s ease 0s;
-    font-weight: bold; 
-    
+    margin-right: 50px;  
 }
 p{
     color: #8A05BE;
@@ -75,7 +100,6 @@ section#container1{
     position: relative;
 }
 #h1-c1a{
-    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px 0px 16px;
     font-weight: 500;
     letter-spacing: -0.03em;
@@ -103,7 +127,6 @@ section#container1{
 }
 #input-c1c{
     color: rgba(17, 17, 17, 0.7);
-    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px;
     color: inherit;
     font-weight: 500;
@@ -116,7 +139,6 @@ section#container1{
     border-right: hidden;
 }
 #bt-c1c{
-    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 30px;
     color: inherit;
     font-weight: 500;
@@ -143,12 +165,11 @@ section#container1{
     width: 800px;
 }
 #h3-c1c{
-font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
-margin: 0px 0px 32px;
-color: rgb(17, 17, 17);
-font-weight: 500;
-letter-spacing: -0.03em;
-font-weight: bold;
+    margin: 0px 0px 32px;
+    color: rgb(17, 17, 17);
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    font-weight: bold;
 }
 
 /*--------------end container1---------------------*/
@@ -174,7 +195,6 @@ section#container2{
     margin-top: 40px;
 }
 #a-c02{
-    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px;
     font-weight: 500;
     letter-spacing: -0.03em;
@@ -185,7 +205,6 @@ section#container2{
 }
 #a-c02-2{
     line-height: 1.35;
-    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px;
     color: rgb(138, 5, 190);
     font-weight: 510;
@@ -212,7 +231,6 @@ section#container2{
     color: white;
 }
 #h1-c02{
-    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px;
     letter-spacing: -0.03em;
     font-size: 3rem;
@@ -245,7 +263,6 @@ section#container3{
 }
 
 #h1-c03{
-    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px;
     margin-right: 300px;
     letter-spacing: -0.03em;
@@ -281,7 +298,6 @@ section#container-rewards{
     margin-top: -150px;
 }
 #a-cr2{
-    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px;
     font-weight: 500;
     letter-spacing: -0.03em;
@@ -301,7 +317,6 @@ section#container-rewards{
     color: rgb(255, 255, 255);
 }*/
 #cr2b{
-    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px;
     color: rgb(255, 255, 255);
     font-weight: 500;
@@ -310,7 +325,6 @@ section#container-rewards{
 }
 #a-cr2-2{
     line-height: 1.35;
-    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px;
     color:rgb(255, 255, 255);
     font-weight: 510;
@@ -328,7 +342,6 @@ section#container-rewards{
     width: 400px;
 }
 h1 span{
-    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px 0px 32px;
     white-space: pre-line;
     font-weight: bold;
@@ -361,7 +374,6 @@ section#container4{
     margin-top: -450px;
 }
 .h1c04{
-    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px 0px 32px;
     white-space: pre-line;
     font-weight: bold;
@@ -374,7 +386,6 @@ section#container4{
 }
 #ac04{
     line-height: 1.35;
-    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px;
     color:rgb(255, 255, 255);
     font-weight: 510;
@@ -396,7 +407,6 @@ img#imgContainer5{
     width: 100%; 
 }
 p span{
-    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px 0px 32px;
     white-space: pre-line;
     font-weight: bold;
@@ -459,7 +469,6 @@ footer{
 footer .container7 .sectionNubank h4{
     margin: 0px 0px 32px;
     color: rgb(245, 245, 245);
-    font-family: "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     letter-spacing: -0.01em;
     font-size: 1.125rem;
@@ -468,7 +477,6 @@ footer .container7 .sectionNubank h4{
 footer .container7 .sectionNubank a{
     margin-bottom: 0.5rem;
     color: rgb(255, 255, 255);
-    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px;
     font-weight: bold;
     letter-spacing: -0.03em;
@@ -478,7 +486,6 @@ footer .container7 .sectionNubank a{
 footer .container7 .sectionProdutos h4{
     margin: 0px 0px 32px;
     color: rgb(245, 245, 245);
-    font-family: "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     letter-spacing: -0.01em;
     font-size: 1.125rem;
@@ -487,7 +494,6 @@ footer .container7 .sectionProdutos h4{
 footer .container7 .sectionProdutos a{
     margin-bottom: 0.5rem;
     color: rgb(255, 255, 255);
-    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px;
     font-weight: bold;
     letter-spacing: -0.03em;
@@ -497,7 +503,6 @@ footer .container7 .sectionProdutos a{
 footer .container7 .sectionExplore h4{
     margin: 0px 0px 32px;
     color: rgb(245, 245, 245);
-    font-family: "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     letter-spacing: -0.01em;
     font-size: 1.125rem;
@@ -506,7 +511,6 @@ footer .container7 .sectionExplore h4{
 footer .container7 .sectionExplore a{
     margin-bottom: 0.5rem;
     color: rgb(255, 255, 255);
-    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px;
     font-weight: bold;
     letter-spacing: -0.03em;
@@ -516,7 +520,6 @@ footer .container7 .sectionExplore a{
 footer .container7 .sectionVejaTambem h4{
     margin: 0px 0px 32px;
     color: rgb(245, 245, 245);
-    font-family: "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     letter-spacing: -0.01em;
     font-size: 1.125rem;
@@ -525,7 +528,6 @@ footer .container7 .sectionVejaTambem h4{
 footer .container7 .sectionVejaTambem a{
     margin-bottom: 0.5rem;
     color: rgb(255, 255, 255);
-    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px;
     font-weight: bold;
     letter-spacing: -0.03em;
@@ -535,7 +537,6 @@ footer .container7 .sectionVejaTambem a{
 footer .container7 .sectionTransparencia h4{
     margin: 0px 0px 32px;
     color: rgb(245, 245, 245);
-    font-family: "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     letter-spacing: -0.01em;
     font-size: 1.125rem;
@@ -544,7 +545,6 @@ footer .container7 .sectionTransparencia h4{
 footer .container7 .sectionTransparencia a{
     margin-bottom: 0.5rem;
     color: rgb(255, 255, 255);
-    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px;
     font-weight: bold;
     letter-spacing: -0.03em;
@@ -554,7 +554,6 @@ footer .container7 .sectionTransparencia a{
 footer .container7 .sectionOuvidoria h4{
     margin: 0px 0px 32px;
     color: rgb(245, 245, 245);
-    font-family: "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     letter-spacing: -0.01em;
     font-size: 1.125rem;
@@ -563,7 +562,6 @@ footer .container7 .sectionOuvidoria h4{
 footer .container7 .sectionOuvidoria a{
     margin-bottom: 0.5rem;
     color: rgb(255, 255, 255);
-    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px;
     font-weight: bold;
     letter-spacing: -0.03em;
@@ -573,7 +571,6 @@ footer .container7 .sectionOuvidoria a{
 footer .container7 .sectionFale h4{
     margin: 0px 0px 32px;
     color: rgb(245, 245, 245);
-    font-family: "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     letter-spacing: -0.01em;
     font-size: 1.125rem;
@@ -582,7 +579,6 @@ footer .container7 .sectionFale h4{
 footer .container7 .sectionFale a{
     margin-bottom: 0.5rem;
     color: rgb(255, 255, 255);
-    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px;
     font-weight: bold;
     letter-spacing: -0.03em;
@@ -592,8 +588,7 @@ footer .container7 .sectionFale a{
 footer .container7 .sectionBaixe h4{
     margin: 0px 0px 32px;
     color: rgb(245, 245, 245);
-    font-family: "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 400;
+   font-weight: 400;
     letter-spacing: -0.01em;
     font-size: 1.125rem;
     line-height: 1.32;
@@ -601,12 +596,15 @@ footer .container7 .sectionBaixe h4{
 footer .container7 .sectionBaixe a{
     margin-bottom: 0.5rem;
     color: rgb(255, 255, 255);
-    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0px;
     font-weight: bold;
     letter-spacing: -0.03em;
     font-size: 1.125rem;
     line-height: 1.2;
+}
+.baixar{
+    height: 50px;
+    width: 150px;
 }
 .container8{
     background-color:black;
@@ -639,8 +637,7 @@ footer .container7 .sectionBaixe a{
 
 }
 #textCopyright{
-    font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 0px;
+   margin: 0px;
     color: rgb(245, 245, 245);
     font-weight: 500;
     letter-spacing: -0.02em;
@@ -651,14 +648,17 @@ footer .container7 .sectionBaixe a{
     
     position: relative;
     display: grid;
-    grid-template-rows: 5fr 5fr 5fr 5fr;
-    grid-template-columns: 5fr 5fr 5fr 5fr ;
-    grid-gap:30px;
-    margin-right: 40px;
+    grid-template-rows: 5fr 5fr 5fr 5fr 5fr;
+    grid-template-columns: 5fr 5fr 5fr 5fr 5fr ;
+    grid-gap:20px;
+    margin-right: 60px;
 }
 .tamImgF{
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
+}
+.tamImgF:hover{
+    background-color: rgb(213, 125, 255);
 }
 
 .container9{
@@ -673,7 +673,12 @@ footer .container7 .sectionBaixe a{
     
 }
 
-.container9 input{
+.container9{
+  position: relative;
+  padding-left: 1060px;
+  height: 200px;
+}
+.radio {
     -webkit-box-align: center;
     align-items: center;
     box-sizing: border-box;
@@ -686,5 +691,9 @@ footer .container7 .sectionBaixe a{
     margin-right: 8px;
     margin-left: 20px;
     width: 18px;
-    padding-left: 10px;
+    padding-left: 100px;
+    border-color: rgb(213, 125, 255);
+    cursor: pointer;
 }
+
+
