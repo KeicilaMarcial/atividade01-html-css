@@ -438,7 +438,7 @@ img#imgContainer6{
 /*---------start footer--------------------------------*/
 footer{
     background-color: black;   
-    height: 800px;
+    height: 900px;
     width: 100%;
     margin-top: 0px;
 }
@@ -449,7 +449,7 @@ footer{
     grid-template-columns: 5fr 5fr 5fr 5fr ;
     grid-gap:20px;
     position: relative;
-    height: 580px;
+    height: 750px;
     /*left: 20px;*/
     padding-left: 50px;
     padding-top: 100px;
@@ -609,16 +609,14 @@ footer .container7 .sectionBaixe a{
     line-height: 1.2;
 }
 .container8{
-    background-color:green;
-    width: 300%;
-    height: 100px;
-    padding-top: 20px;
-    margin-top: 20px;
-    border-bottom: 1px solid  red;
+    background-color:black;
+    width: 100%;
+    height: 150px;
+    padding-top: 40px;  
+    margin-top: 40px;
+    border-bottom: 1px solid rgb(25, 25, 25);
     display: flex;
-    justify-content: center;
-    
-
+    justify-content: left;
 }
 #f1{
     padding-top: 20px;
@@ -627,12 +625,18 @@ footer .container7 .sectionBaixe a{
 }
 #f2{
     position: relative;
+    margin-left: 200px;
+    margin-right: auto;
+    
 
 }
 #imglogofooter{
-    position: relative;
-    height: 40px;
-    width: 50px;
+    position: absolute;
+    height: 30px;
+    width: 40px;
+    top:0px;
+    margin-left: 70px;
+
 }
 #textCopyright{
     font-family: Graphik-Medium, "Graphik-Regular", "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -649,9 +653,38 @@ footer .container7 .sectionBaixe a{
     display: grid;
     grid-template-rows: 5fr 5fr 5fr 5fr;
     grid-template-columns: 5fr 5fr 5fr 5fr ;
-    grid-gap:20px;
+    grid-gap:30px;
+    margin-right: 40px;
 }
 .tamImgF{
     height: 20px;
     width: 20px;
+}
+
+.container9{
+    background-color:black;
+    width: 100%;
+    height: 100px;
+    padding-top: 40px;  
+    border-bottom: 1px solid rgb(25, 25, 25);
+    display: flex;
+    color: white;
+    padding-left: 20px;
+    
+}
+
+.container9 input{
+    -webkit-box-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 2.5px solid rgb(245, 245, 245);
+    border-radius: 50%;
+    display: flex;
+    height: 18px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-right: 8px;
+    margin-left: 20px;
+    width: 18px;
+    padding-left: 10px;
 }
